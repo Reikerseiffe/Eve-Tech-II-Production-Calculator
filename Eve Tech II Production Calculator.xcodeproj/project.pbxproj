@@ -19,6 +19,7 @@
 		CC8649A7224873F900A521A9 /* AdvancedComponentRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8649A6224873F900A521A9 /* AdvancedComponentRecipe.swift */; };
 		CC8649AD2248947A00A521A9 /* ProcessedMoonMaterialRecipies.json in Resources */ = {isa = PBXBuildFile; fileRef = CC8649AC2248947A00A521A9 /* ProcessedMoonMaterialRecipies.json */; };
 		CC8649B22248958400A521A9 /* ProcessedMoonMaterialRecipies.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = CC8649AC2248947A00A521A9 /* ProcessedMoonMaterialRecipies.json */; };
+		CC8649B5224896B600A521A9 /* JSONImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8649B4224896B600A521A9 /* JSONImporter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -56,6 +57,7 @@
 		CC8649A4224873E200A521A9 /* AdvancedMoonMaterialReaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedMoonMaterialReaction.swift; sourceTree = "<group>"; };
 		CC8649A6224873F900A521A9 /* AdvancedComponentRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedComponentRecipe.swift; sourceTree = "<group>"; };
 		CC8649AC2248947A00A521A9 /* ProcessedMoonMaterialRecipies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ProcessedMoonMaterialRecipies.json; sourceTree = "<group>"; };
+		CC8649B4224896B600A521A9 /* JSONImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONImporter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,9 +90,11 @@
 		CC86498A224871F500A521A9 /* Eve Tech II Production Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				CC8649B32248966100A521A9 /* Resources */,
 				CC8649942248733500A521A9 /* Models */,
 				CC86498B224871F500A521A9 /* main.swift */,
 				CC8649922248731E00A521A9 /* Constants.swift */,
+				CC8649B4224896B600A521A9 /* JSONImporter.swift */,
 			);
 			path = "Eve Tech II Production Calculator";
 			sourceTree = "<group>";
@@ -98,7 +102,6 @@
 		CC8649942248733500A521A9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				CC8649AB2248946D00A521A9 /* JSON */,
 				CC8649A1224873B900A521A9 /* Structs */,
 				CC8649952248733A00A521A9 /* Enums */,
 			);
@@ -133,6 +136,14 @@
 				CC8649AC2248947A00A521A9 /* ProcessedMoonMaterialRecipies.json */,
 			);
 			path = JSON;
+			sourceTree = "<group>";
+		};
+		CC8649B32248966100A521A9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CC8649AB2248946D00A521A9 /* JSON */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +220,7 @@
 				CC8649972248734B00A521A9 /* RawMoonMaterial.swift in Sources */,
 				CC86498C224871F500A521A9 /* main.swift in Sources */,
 				CC8649A5224873E200A521A9 /* AdvancedMoonMaterialReaction.swift in Sources */,
+				CC8649B5224896B600A521A9 /* JSONImporter.swift in Sources */,
 				CC8649A3224873CA00A521A9 /* ProcessedMoonMaterialReaction.swift in Sources */,
 				CC86499B2248737A00A521A9 /* AdvancedMoonMaterial.swift in Sources */,
 				CC8649992248736300A521A9 /* ProcessedMoonMaterial.swift in Sources */,

@@ -10,8 +10,5 @@ import Foundation
 
 print("Hello, New Eden!")
 
-if let path = Bundle.main.path(forResource: "ProcessedMoonMaterialRecipies", ofType: "json"){
-    print("Able to find JSON File")
-    
-}
+JSONImporter.importProcessedMoonMaterials()
 
