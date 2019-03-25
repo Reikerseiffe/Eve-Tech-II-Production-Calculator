@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC86498C224871F500A521A9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC86498B224871F500A521A9 /* main.swift */; };
+		CC8649932248731E00A521A9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8649922248731E00A521A9 /* Constants.swift */; };
+		CC8649972248734B00A521A9 /* RawMoonMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8649962248734B00A521A9 /* RawMoonMaterial.swift */; };
+		CC8649992248736300A521A9 /* ProcessedMoonMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8649982248736300A521A9 /* ProcessedMoonMaterial.swift */; };
+		CC86499B2248737A00A521A9 /* AdvancedMoonMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC86499A2248737A00A521A9 /* AdvancedMoonMaterial.swift */; };
+		CC86499D2248738900A521A9 /* FuelBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC86499C2248738900A521A9 /* FuelBlock.swift */; };
+		CC86499F224873A100A521A9 /* AdvancedComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC86499E224873A100A521A9 /* AdvancedComponent.swift */; };
+		CC8649A3224873CA00A521A9 /* ProcessedMoonMaterialReaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8649A2224873CA00A521A9 /* ProcessedMoonMaterialReaction.swift */; };
+		CC8649A5224873E200A521A9 /* AdvancedMoonMaterialReaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8649A4224873E200A521A9 /* AdvancedMoonMaterialReaction.swift */; };
+		CC8649A7224873F900A521A9 /* AdvancedComponentRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8649A6224873F900A521A9 /* AdvancedComponentRecipe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC864986224871F500A521A9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC864988224871F500A521A9 /* Eve Tech II Production Calculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Eve Tech II Production Calculator"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC86498B224871F500A521A9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CC8649922248731E00A521A9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CC8649962248734B00A521A9 /* RawMoonMaterial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawMoonMaterial.swift; sourceTree = "<group>"; };
+		CC8649982248736300A521A9 /* ProcessedMoonMaterial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessedMoonMaterial.swift; sourceTree = "<group>"; };
+		CC86499A2248737A00A521A9 /* AdvancedMoonMaterial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedMoonMaterial.swift; sourceTree = "<group>"; };
+		CC86499C2248738900A521A9 /* FuelBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelBlock.swift; sourceTree = "<group>"; };
+		CC86499E224873A100A521A9 /* AdvancedComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedComponent.swift; sourceTree = "<group>"; };
+		CC8649A2224873CA00A521A9 /* ProcessedMoonMaterialReaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessedMoonMaterialReaction.swift; sourceTree = "<group>"; };
+		CC8649A4224873E200A521A9 /* AdvancedMoonMaterialReaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedMoonMaterialReaction.swift; sourceTree = "<group>"; };
+		CC8649A6224873F900A521A9 /* AdvancedComponentRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedComponentRecipe.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC864985224871F500A521A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC86497F224871F500A521A9 = {
+			isa = PBXGroup;
+			children = (
+				CC86498A224871F500A521A9 /* Eve Tech II Production Calculator */,
+				CC864989224871F500A521A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC864989224871F500A521A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC864988224871F500A521A9 /* Eve Tech II Production Calculator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC86498A224871F500A521A9 /* Eve Tech II Production Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				CC8649942248733500A521A9 /* Models */,
+				CC86498B224871F500A521A9 /* main.swift */,
+				CC8649922248731E00A521A9 /* Constants.swift */,
+			);
+			path = "Eve Tech II Production Calculator";
+			sourceTree = "<group>";
+		};
+		CC8649942248733500A521A9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CC8649A1224873B900A521A9 /* Structs */,
+				CC8649952248733A00A521A9 /* Enums */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CC8649952248733A00A521A9 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				CC8649962248734B00A521A9 /* RawMoonMaterial.swift */,
+				CC8649982248736300A521A9 /* ProcessedMoonMaterial.swift */,
+				CC86499A2248737A00A521A9 /* AdvancedMoonMaterial.swift */,
+				CC86499C2248738900A521A9 /* FuelBlock.swift */,
+				CC86499E224873A100A521A9 /* AdvancedComponent.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		CC8649A1224873B900A521A9 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				CC8649A2224873CA00A521A9 /* ProcessedMoonMaterialReaction.swift */,
+				CC8649A4224873E200A521A9 /* AdvancedMoonMaterialReaction.swift */,
+				CC8649A6224873F900A521A9 /* AdvancedComponentRecipe.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC864987224871F500A521A9 /* Eve Tech II Production Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC86498F224871F500A521A9 /* Build configuration list for PBXNativeTarget "Eve Tech II Production Calculator" */;
+			buildPhases = (
+				CC864984224871F500A521A9 /* Sources */,
+				CC864985224871F500A521A9 /* Frameworks */,
+				CC864986224871F500A521A9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Eve Tech II Production Calculator";
+			productName = "Eve Tech II Production Calculator";
+			productReference = CC864988224871F500A521A9 /* Eve Tech II Production Calculator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC864980224871F500A521A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = reikerseiffe.com;
+				TargetAttributes = {
+					CC864987224871F500A521A9 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = CC864983224871F500A521A9 /* Build configuration list for PBXProject "Eve Tech II Production Calculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC86497F224871F500A521A9;
+			productRefGroup = CC864989224871F500A521A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC864987224871F500A521A9 /* Eve Tech II Production Calculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC864984224871F500A521A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC86499F224873A100A521A9 /* AdvancedComponent.swift in Sources */,
+				CC8649972248734B00A521A9 /* RawMoonMaterial.swift in Sources */,
+				CC86498C224871F500A521A9 /* main.swift in Sources */,
+				CC8649A5224873E200A521A9 /* AdvancedMoonMaterialReaction.swift in Sources */,
+				CC8649A3224873CA00A521A9 /* ProcessedMoonMaterialReaction.swift in Sources */,
+				CC86499B2248737A00A521A9 /* AdvancedMoonMaterial.swift in Sources */,
+				CC8649992248736300A521A9 /* ProcessedMoonMaterial.swift in Sources */,
+				CC8649932248731E00A521A9 /* Constants.swift in Sources */,
+				CC86499D2248738900A521A9 /* FuelBlock.swift in Sources */,
+				CC8649A7224873F900A521A9 /* AdvancedComponentRecipe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CC86498D224871F500A521A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC86498E224871F500A521A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CC864990224871F500A521A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		CC864991224871F500A521A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC864983224871F500A521A9 /* Build configuration list for PBXProject "Eve Tech II Production Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC86498D224871F500A521A9 /* Debug */,
+				CC86498E224871F500A521A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC86498F224871F500A521A9 /* Build configuration list for PBXNativeTarget "Eve Tech II Production Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC864990224871F500A521A9 /* Debug */,
+				CC864991224871F500A521A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC864980224871F500A521A9 /* Project object */;
+}
