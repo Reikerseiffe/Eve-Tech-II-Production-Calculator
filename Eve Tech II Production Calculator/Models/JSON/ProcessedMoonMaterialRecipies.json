@@ -1,0 +1,20 @@
+[
+    {
+        "output":"Titanium Chromide",
+        "fuelBlocks":"Oxygen Fuel Block",
+        "input":[
+            "Titanium",
+            "Chromium"
+        ]
+    },
+    {
+        "output":"Silicon Diborite",
+        "fuelBlocks":"Oxygen Fuel Block",
+        "input":[
+            "Silicates",
+            "Evaporite Deposits"
+        ]
+    }
+]
+ 
+

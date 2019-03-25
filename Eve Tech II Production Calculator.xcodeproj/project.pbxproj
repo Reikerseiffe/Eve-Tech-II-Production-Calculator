@@ -17,17 +17,29 @@
 		CC8649A3224873CA00A521A9 /* ProcessedMoonMaterialReaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8649A2224873CA00A521A9 /* ProcessedMoonMaterialReaction.swift */; };
 		CC8649A5224873E200A521A9 /* AdvancedMoonMaterialReaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8649A4224873E200A521A9 /* AdvancedMoonMaterialReaction.swift */; };
 		CC8649A7224873F900A521A9 /* AdvancedComponentRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8649A6224873F900A521A9 /* AdvancedComponentRecipe.swift */; };
+		CC8649AD2248947A00A521A9 /* ProcessedMoonMaterialRecipies.json in Resources */ = {isa = PBXBuildFile; fileRef = CC8649AC2248947A00A521A9 /* ProcessedMoonMaterialRecipies.json */; };
+		CC8649B22248958400A521A9 /* ProcessedMoonMaterialRecipies.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = CC8649AC2248947A00A521A9 /* ProcessedMoonMaterialRecipies.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		CC864986224871F500A521A9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
+			dstPath = usr/share/man/man1;
 			dstSubfolderSpec = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 1;
+		};
+		CC8649B12248956C00A521A9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				CC8649B22248958400A521A9 /* ProcessedMoonMaterialRecipies.json in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -43,6 +55,7 @@
 		CC8649A2224873CA00A521A9 /* ProcessedMoonMaterialReaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessedMoonMaterialReaction.swift; sourceTree = "<group>"; };
 		CC8649A4224873E200A521A9 /* AdvancedMoonMaterialReaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedMoonMaterialReaction.swift; sourceTree = "<group>"; };
 		CC8649A6224873F900A521A9 /* AdvancedComponentRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedComponentRecipe.swift; sourceTree = "<group>"; };
+		CC8649AC2248947A00A521A9 /* ProcessedMoonMaterialRecipies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ProcessedMoonMaterialRecipies.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +98,7 @@
 		CC8649942248733500A521A9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				CC8649AB2248946D00A521A9 /* JSON */,
 				CC8649A1224873B900A521A9 /* Structs */,
 				CC8649952248733A00A521A9 /* Enums */,
 			);
@@ -113,6 +127,14 @@
 			path = Structs;
 			sourceTree = "<group>";
 		};
+		CC8649AB2248946D00A521A9 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				CC8649AC2248947A00A521A9 /* ProcessedMoonMaterialRecipies.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -123,6 +145,8 @@
 				CC864984224871F500A521A9 /* Sources */,
 				CC864985224871F500A521A9 /* Frameworks */,
 				CC864986224871F500A521A9 /* CopyFiles */,
+				CC8649A92248929500A521A9 /* Resources */,
+				CC8649B12248956C00A521A9 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -164,6 +188,17 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC8649A92248929500A521A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC8649AD2248947A00A521A9 /* ProcessedMoonMaterialRecipies.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CC864984224871F500A521A9 /* Sources */ = {
