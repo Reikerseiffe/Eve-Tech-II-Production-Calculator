@@ -10,5 +10,7 @@ import Foundation
 
 print("Hello, New Eden!")
 
-JSONImporter.importProcessedMoonMaterials()
+let processedMoonMaterialRecipies = JSONImporter.importProcessedMoonMaterials()
+
+
 

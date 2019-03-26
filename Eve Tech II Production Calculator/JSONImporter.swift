@@ -20,24 +20,33 @@ class JSONImporter{
         //        self.importAdvanvedComponents()
     }
     
-    static func importProcessedMoonMaterials(){
+    static func genericJSONImporter<T>(fromPath path:String, withModel modelType: T.Type) -> T? where T : Decodable{
+        do {
+            let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
+            guard let recipies = try? JSONDecoder().decode(modelType, from: data) else {
+                print("Error: Couldn't decode data into Processed Moon Materials")
+                return nil
+            }
+            return recipies
+        } catch {
+            print("Unable to get contents of file and transfor to Data")
+            return nil
+        }
+        
+    }
+    
+    static func importProcessedMoonMaterials() -> [ProcessedMoonMaterialReaction]{
         //Get path for processed moon materials
         guard let path = Bundle.main.path(forResource: "ProcessedMoonMaterialRecipies", ofType: "json") else {
             print("Not able to find JSON File")
-            return
+            return []
         }
         
-        do {
-            let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
-            guard let reactions = try? JSONDecoder().decode([ProcessedMoonMaterialReaction].self, from: data) else {
-                print("Error: Couldn't decode data into Processed Moon Materials")
-                return
-            }
-            print(reactions)
-        } catch {
-            print("Unable to get contents of file and transfor to Data")
-            return
+        if let processedMoonMaterialRecipies = genericJSONImporter(fromPath: path, withModel: [ProcessedMoonMaterialReaction].self){
+            print(processedMoonMaterialRecipies)
+            return processedMoonMaterialRecipies
         }
+        return []
     }
     
     
