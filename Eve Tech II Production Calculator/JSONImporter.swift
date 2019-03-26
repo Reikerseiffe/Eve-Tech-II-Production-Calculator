@@ -16,8 +16,8 @@ class JSONImporter{
     
     static func importAllRecipies(){
         self.importProcessedMoonMaterials()
-        //        self.importAdvancedComponents()
-        //        self.importAdvanvedComponents()
+        self.importAdvancedMoonMaterials()
+        self.importAdvancedComponents()
     }
     
     static func genericJSONImporter<T>(fromPath path:String, withModel modelType: T.Type) -> T? where T : Decodable{
@@ -37,7 +37,7 @@ class JSONImporter{
     
     static func importProcessedMoonMaterials() -> [ProcessedMoonMaterialReaction]{
         //Get path for processed moon materials
-        guard let path = Bundle.main.path(forResource: "ProcessedMoonMaterialRecipies", ofType: "json") else {
+        guard let path = Bundle.main.path(forResource: "ProcessedMoonMaterialReactions", ofType: "json") else {
             print("Not able to find JSON File")
             return []
         }
@@ -49,22 +49,31 @@ class JSONImporter{
         return []
     }
     
+    static func importAdvancedMoonMaterials() -> [AdvancedMoonMaterialReaction]{
+        //Get path for advanced moon materials
+        guard let path = Bundle.main.path(forResource: "AdvancedMoonMaterialReactions", ofType: "json") else {
+            print("Not able to find JSON File")
+            return []
+        }
+        
+        if let advancedMoonMaterialRecipies = genericJSONImporter(fromPath: path, withModel: [AdvancedMoonMaterialReaction].self){
+            print(advancedMoonMaterialRecipies)
+            return advancedMoonMaterialRecipies
+        }
+        return []
+    }
     
-    
-    
-    
-    //    static func importAdvancedComponents(){
-    //        //Get path for advanced moon materials
-    //        if let path = Bundle.main.path(forResource: "ProcessedMoonMaterialRecipies", ofType: "json"){
-    //            print("Able to find JSON File")
-    //        }
-    //    }
-    //
-    //    static func importAdvanvedComponents(){
-    //        //Get path for advanced components
-    //        if let path = Bundle.main.path(forResource: "ProcessedMoonMaterialRecipies", ofType: "json"){
-    //            print("Able to find JSON File")
-    //
-    //        }
-    //    }
+    static func importAdvancedComponents() -> [AdvancedComponentRecipe]{
+        //Get path for advanced components
+        guard let path = Bundle.main.path(forResource: "AdvancedComponentsRecipies", ofType: "json") else {
+            print("Not able to find JSON File")
+            return []
+        }
+        
+        if let advancedComponentRecipes = genericJSONImporter(fromPath: path, withModel: [AdvancedComponentRecipe].self){
+            print(advancedComponentRecipes)
+            return advancedComponentRecipes
+        }
+        return []
+    }
 }
