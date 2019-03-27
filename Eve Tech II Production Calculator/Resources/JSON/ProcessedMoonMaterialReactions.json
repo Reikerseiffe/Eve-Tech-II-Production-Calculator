@@ -158,6 +158,14 @@
             "Titanium",
             "Chromium"
         ]
+    },
+    {
+        "output":"Vanadium Hafnite",
+        "fuelBlocks":"Hydrogen Fuel Block",
+        "input":[
+            "Vanadium",
+            "Hafnium"
+        ]
     }
 ]
 

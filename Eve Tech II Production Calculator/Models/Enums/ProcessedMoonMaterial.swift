@@ -29,4 +29,5 @@ enum ProcessedMoonMaterial:String, Codable{
     case sulfuricAcid = "Sulfuric Acid"
     case thuliumHafnite = "Thulium Hafnite"
     case titaniumChromide = "Titanium Chromide"
+    case vanadiumHafnite = "Vanadium Hafnite"
 }

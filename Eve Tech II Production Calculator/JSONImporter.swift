@@ -24,7 +24,7 @@ class JSONImporter{
         do {
             let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
             guard let recipes = try? JSONDecoder().decode(modelType, from: data) else {
-                print("Error: Couldn't decode data into Processed Moon Materials")
+                print("Error: Couldn't decode data into type: \(T.self)")
                 return nil
             }
             return recipes

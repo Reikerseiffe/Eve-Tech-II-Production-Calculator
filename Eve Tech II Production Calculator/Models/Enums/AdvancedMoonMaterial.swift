@@ -24,5 +24,4 @@ enum AdvancedMoonMaterial: String, Decodable{
     case terahertzMetamaterials = "Terahertz Metamaterials"
     case titaniumCarbide = "Titanium Carbide"
     case tungstenCarbide = "Tungsten Carbide"
-    
 }
