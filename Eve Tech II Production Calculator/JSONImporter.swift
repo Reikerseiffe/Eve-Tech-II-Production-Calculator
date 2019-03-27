@@ -32,7 +32,6 @@ class JSONImporter{
             print("Unable to get contents of file and transfor to Data")
             return nil
         }
-        
     }
     
     static func importProcessedMoonMaterials() -> [ProcessedMoonMaterialReaction]{

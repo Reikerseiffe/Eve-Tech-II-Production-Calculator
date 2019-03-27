@@ -11,6 +11,6 @@ import Foundation
 enum FuelBlock:String, Codable{
     case heliumFuelBlock = "Helium Fuel Block"
     case hydrogenFuelBlock = "Hydrogen Fuel Block"
-    case nitrogenFuelBlock = "Nitgrogen Fuel Block"
+    case nitrogenFuelBlock = "Nitrogen Fuel Block"
     case oxygenFuelBlock = "Oxygen Fuel Block"
 }
