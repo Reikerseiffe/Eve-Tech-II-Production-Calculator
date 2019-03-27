@@ -21,9 +21,9 @@
 		CC8649B22248958400A521A9 /* ProcessedMoonMaterialReactions.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = CC8649AC2248947A00A521A9 /* ProcessedMoonMaterialReactions.json */; };
 		CC8649B5224896B600A521A9 /* JSONImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8649B4224896B600A521A9 /* JSONImporter.swift */; };
 		CC89299A2249EEEA0062F0FB /* AdvancedMoonMaterialReactions.json in Resources */ = {isa = PBXBuildFile; fileRef = CC8929992249EEEA0062F0FB /* AdvancedMoonMaterialReactions.json */; };
-		CC89299C2249EF110062F0FB /* AdvancedComponentsRecipies.json in Resources */ = {isa = PBXBuildFile; fileRef = CC89299B2249EF110062F0FB /* AdvancedComponentsRecipies.json */; };
+		CC89299C2249EF110062F0FB /* AdvancedComponentsRecipes.json in Resources */ = {isa = PBXBuildFile; fileRef = CC89299B2249EF110062F0FB /* AdvancedComponentsRecipes.json */; };
 		CC89299D2249EFBB0062F0FB /* AdvancedMoonMaterialReactions.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = CC8929992249EEEA0062F0FB /* AdvancedMoonMaterialReactions.json */; };
-		CC89299E2249EFBF0062F0FB /* AdvancedComponentsRecipies.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = CC89299B2249EF110062F0FB /* AdvancedComponentsRecipies.json */; };
+		CC89299E2249EFBF0062F0FB /* AdvancedComponentsRecipes.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = CC89299B2249EF110062F0FB /* AdvancedComponentsRecipes.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,7 +42,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
-				CC89299E2249EFBF0062F0FB /* AdvancedComponentsRecipies.json in CopyFiles */,
+				CC89299E2249EFBF0062F0FB /* AdvancedComponentsRecipes.json in CopyFiles */,
 				CC89299D2249EFBB0062F0FB /* AdvancedMoonMaterialReactions.json in CopyFiles */,
 				CC8649B22248958400A521A9 /* ProcessedMoonMaterialReactions.json in CopyFiles */,
 			);
@@ -65,7 +65,7 @@
 		CC8649AC2248947A00A521A9 /* ProcessedMoonMaterialReactions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ProcessedMoonMaterialReactions.json; sourceTree = "<group>"; };
 		CC8649B4224896B600A521A9 /* JSONImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONImporter.swift; sourceTree = "<group>"; };
 		CC8929992249EEEA0062F0FB /* AdvancedMoonMaterialReactions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AdvancedMoonMaterialReactions.json; sourceTree = "<group>"; };
-		CC89299B2249EF110062F0FB /* AdvancedComponentsRecipies.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AdvancedComponentsRecipies.json; sourceTree = "<group>"; };
+		CC89299B2249EF110062F0FB /* AdvancedComponentsRecipes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AdvancedComponentsRecipes.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,7 +143,7 @@
 			children = (
 				CC8649AC2248947A00A521A9 /* ProcessedMoonMaterialReactions.json */,
 				CC8929992249EEEA0062F0FB /* AdvancedMoonMaterialReactions.json */,
-				CC89299B2249EF110062F0FB /* AdvancedComponentsRecipies.json */,
+				CC89299B2249EF110062F0FB /* AdvancedComponentsRecipes.json */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
@@ -216,7 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC89299A2249EEEA0062F0FB /* AdvancedMoonMaterialReactions.json in Resources */,
-				CC89299C2249EF110062F0FB /* AdvancedComponentsRecipies.json in Resources */,
+				CC89299C2249EF110062F0FB /* AdvancedComponentsRecipes.json in Resources */,
 				CC8649AD2248947A00A521A9 /* ProcessedMoonMaterialReactions.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
