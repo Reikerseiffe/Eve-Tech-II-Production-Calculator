@@ -1,0 +1,171 @@
+[
+    {
+        "output":"Caesarium Cadmide",
+        "fuelBlocks":"Oxygen Fuel Block",
+        "input":[
+            "Cadmium",
+            "Caesium"
+        ]
+    },
+    {
+        "output":"Carbon Polymers",
+        "fuelBlocks":"Helium Fuel Block",
+        "input":[
+            "Hydrocarbons",
+            "Silicates"
+        ]
+    },
+    {
+        "output":"Ceramic Powder",
+        "fuelBlocks":"Hydrogen Fuel Block",
+        "input":[
+            "Evaporite Deposits",
+            "Silicates"
+        ]
+    },
+    {
+        "output":"Crystallite Alloy",
+        "fuelBlocks":"Helium Fuel Block",
+        "input":[
+            "Cobalt",
+            "Cadmium"
+        ]
+    },
+    {
+        "output":"Dysporite",
+        "fuelBlocks":"Helium Fuel Block",
+        "input":[
+            "Mercury",
+            "Dysprosium"
+        ]
+    },
+    {
+        "output":"Fernite Alloy",
+        "fuelBlocks":"Hydrogen Fuel Block",
+        "input":[
+            "Scandium",
+            "Vanadium"
+        ]
+    },
+    {
+        "output":"Ferrofluid",
+        "fuelBlocks":"Hydrogen Fuel Block",
+        "input":[
+            "Hafnium",
+            "Dysprosium"
+        ]
+    },
+    {
+        "output":"Fluxed Condensates",
+        "fuelBlocks":"Oxygen Fuel Block",
+        "input":[
+            "Neodymium",
+            "Thulium"
+        ]
+    },
+    {
+        "output":"Hexite",
+        "fuelBlocks":"Nitrogen Fuel Block",
+        "input":[
+            "Chromium",
+            "Platinum"
+        ]
+    },
+    {
+        "output":"Hyperflurite",
+        "fuelBlocks":"Nitrogen Fuel Block",
+        "input":[
+            "Vanadium",
+            "Promethium"
+        ]
+    },
+    {
+        "output":"Neo Mercurite",
+        "fuelBlocks":"Helium Fuel Block",
+        "input":[
+            "Mercury",
+            "Neodymium"
+        ]
+    },
+    {
+        "output":"Platinum Technite",
+        "fuelBlocks":"Nitrogen Fuel Block",
+        "input":[
+            "Silicates",
+            "Evaporite Deposits"
+        ]
+    },
+    {
+        "output":"Promethium Mercurite",
+        "fuelBlocks":"Helium Fuel Block",
+        "input":[
+            "Mercury",
+            "Promethium"
+        ]
+    },
+    {
+        "output":"Prometium",
+        "fuelBlocks":"Oxygen Fuel Block",
+        "input":[
+            "Cadmium",
+            "Promethium"
+        ]
+    },
+    {
+        "output":"Rolled Tungsten Alloy",
+        "fuelBlocks":"Nitrogen Fuel Block",
+        "input":[
+            "Tungsten",
+            "Platinum"
+        ]
+    },
+    {
+        "output":"Silicon Diborite",
+        "fuelBlocks":"Oxygen Fuel Block",
+        "input":[
+            "Evaporite Deposits",
+            "Silicates"
+        ]
+    },
+    {
+        "output":"Solerium",
+        "fuelBlocks":"Oxygen Fuel Block",
+        "input":[
+            "Chromium",
+            "Caesium"
+        ]
+    },
+    {
+        "output":"Sulfuric Acid",
+        "fuelBlocks":"Nitrogen Fuel Block",
+        "input":[
+            "Atmospheric Gases",
+            "Evaporite Deposits"
+        ]
+    },
+    {
+        "output":"Thulium Hafnite",
+        "fuelBlocks":"Hydrogen Fuel Block",
+        "input":[
+            "Hafnium",
+            "Thulium"
+        ]
+    },
+    {
+        "output":"Titanium Chromide",
+        "fuelBlocks":"Oxygen Fuel Block",
+        "input":[
+            "Titanium",
+            "Chromium"
+        ]
+    },
+    {
+        "output":"Vanadium Hafnite",
+        "fuelBlocks":"Hydrogen Fuel Block",
+        "input":[
+            "Vanadium",
+            "Hafnium"
+        ]
+    }
+]
+

@@ -1,0 +1,144 @@
+[
+    {
+        "output":"Crystalline Carbonide",
+        "outputQuantity":10000,
+        "fuelBlocks":"Helium Fuel Block",
+        "input":[
+            "Crystallite Alloy",
+            "Carbon Polymers"
+        ]
+    },
+    {
+        "output":"Fermionic Condensates",
+        "outputQuantity":200,
+        "fuelBlocks":"Helium Fuel Block",
+        "input":[
+            "Caesarium Cadmide",
+            "Dysporite",
+            "Fluxed Condensates",
+            "Prometium"
+        ]
+    },
+    {
+        "output":"Fernite Carbide",
+        "outputQuantity":10000,
+        "fuelBlocks":"Hydrogen Fuel Block",
+        "input":[
+            "Fernite Alloy",
+            "Ceramic Powder"
+        ]
+    },
+    {
+        "output":"Ferrogel",
+        "outputQuantity":400,
+        "fuelBlocks":"Hydrogen Fuel Block",
+        "input":[
+            "Hexite",
+            "Hyperflurite",
+            "Ferrofluid",
+            "Prometium"
+        ]
+    },
+    {
+        "output":"Fullerides",
+        "outputQuantity":3000,
+        "fuelBlocks":"Nitrogen Fuel Block",
+        "input":[
+            "Carbon Polymers",
+            "Platinum Technite"
+        ]
+    },
+    {
+        "output":"Hypersynaptic Fibers",
+        "outputQuantity":750,
+        "fuelBlocks":"Oxygen Fuel Block",
+        "input":[
+            "Solerium",
+            "Dysporite",
+            "Vanadium Hafnite"
+        ]
+    },
+    {
+        "output":"Nanotransistors",
+        "outputQuantity":1500,
+        "fuelBlocks":"Nitrogen Fuel Block",
+        "input":[
+            "Sulfuric Acid",
+            "Platinum Technite",
+            "Neo Mercurite"
+        ]
+    },
+    {
+        "output":"Nonlinear Metamaterials",
+        "outputQuantity":300,
+        "fuelBlocks":"Nitrogen Fuel Block",
+        "input":[
+            "Titanium Chromide",
+            "Ferrofluid"
+        ]
+    },
+    {
+        "output":"Phenolic Composites",
+        "outputQuantity":2200,
+        "fuelBlocks":"Oxygen Fuel Block",
+        "input":[
+            "Silicon Diborite",
+            "Caesarium Cadmide",
+            "Vanadium Hafnite"
+        ]
+    },
+    {
+        "output":"Photonic Metamaterials",
+        "outputQuantity":300,
+        "fuelBlocks":"Oxygen Fuel Block",
+        "input":[
+            "Crystallite Alloy",
+            "Thulium Hafnite"
+        ]
+    },
+    {
+        "output":"Plasmonic Metamaterials",
+        "outputQuantity":300,
+        "fuelBlocks":"Hydrogen Fuel Block",
+        "input":[
+            "Fernite Alloy",
+            "Neo Mercurite"
+        ]
+    },
+    {
+        "output":"Sylramic Fibers",
+        "outputQuantity":6000,
+        "fuelBlocks":"Helium Fuel Block",
+        "input":[
+            "Ceramic Powder",
+            "Hexite"
+        ]
+    },
+    {
+        "output":"Terahertz Metamaterials",
+        "outputQuantity":300,
+        "fuelBlocks":"Helium Fuel Block",
+        "input":[
+            "Rolled Tungsten Alloy",
+            "Promethium Mercurite"
+        ]
+    },
+    {
+        "output":"Titanium Carbide",
+        "outputQuantity":10000,
+        "fuelBlocks":"Oxygen Fuel Block",
+        "input":[
+            "Titanium Chromide",
+            "Silicon Diborite"
+        ]
+    },
+    {
+        "output":"Tungsten Carbide",
+        "outputQuantity":10000,
+        "fuelBlocks":"Nitrogen Fuel Block",
+        "input":[
+            "Rolled Tungsten Alloy",
+            "Sulfuric Acid"
+        ]
+    }
+]

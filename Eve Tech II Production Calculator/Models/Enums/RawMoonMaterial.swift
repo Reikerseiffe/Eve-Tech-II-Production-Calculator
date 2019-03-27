@@ -9,8 +9,33 @@
 import Foundation
 
 enum RawMoonMaterial:String, Codable{
-    case titanium = "Titanium"
-    case chromium = "Chromium"
+    //R4
     case silicates = "Silicates"
     case evaporiteDeposits = "Evaporite Deposits"
+    case hydrocarbons = "Hydrocarbons"
+    case atmosphericGases = "Atmospheric Gases"
+    
+    //R8
+    case cobalt = "Cobalt"
+    case scandium = "Scandium"
+    case tungsten = "Tungsten"
+    case titanium = "Titanium"
+    
+    //R16
+    case chromium = "Chromium"
+    case cadmium = "Cadmium"
+    case platinum = "Platinum"
+    case vanadium = "Vanadium"
+    
+    //R32
+    case technetium = "Technetium"
+    case mercury = "Mercury"
+    case caesium = "Caesium"
+    case hafnium = "Hafnium"
+    
+    //R64
+    case promethium = "Promethium"
+    case neodymium = "Neodymium"
+    case dysprosium = "Dysprosium"
+    case thulium = "Thulium"
 }

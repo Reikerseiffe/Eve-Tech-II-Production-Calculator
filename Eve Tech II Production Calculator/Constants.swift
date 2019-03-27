@@ -15,3 +15,6 @@ let REACTION_FUEL_BLOCK_INPUT_QUANTITY = 5 //Base value for both tier 1 and 2 it
 
 //Reaction Outputs
 let PROCESSED_MOON_MATERIAL_BASE_OUTPUT_QUANTITY = 200 //Base value for all tier 1 reactions
+
+//Components Outputs
+let ADVANCED_COMPONENT_BASE_OUTPUT_QUANTITY = 1

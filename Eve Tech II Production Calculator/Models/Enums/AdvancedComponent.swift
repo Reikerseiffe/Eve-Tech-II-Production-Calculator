@@ -27,7 +27,7 @@ enum AdvancedComponent: String, Decodable{
     case magpulseThruster = "Magpulse Thruster"
     case quantumMicroprocessor = "Quantum Microprocessor"
     case scalarCapacitorUnit = "Scalar Capacitor Unit"
-    case superconductorUnit = "Superconductor Unit"
+    case superconductorRails = "Superconductor Rails"
     case sustainedShieldEmitter = "Sustained Shield Emitter"
     case titaniumDiboriteArmorPlate = "Titanium Diborite Armor Plate"
     

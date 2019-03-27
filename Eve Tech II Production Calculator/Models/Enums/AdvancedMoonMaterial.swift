@@ -9,5 +9,19 @@
 import Foundation
 
 enum AdvancedMoonMaterial: String, Decodable{
+    case crystallineCarbonide = "Crystalline Carbonide"
+    case fermionicCondensates = "Fermionic Condensates"
+    case ferniteCarbide = "Fernite Carbide"
+    case ferrogel = "Ferrogel"
+    case fullerides = "Fullerides"
+    case hypersynapticFibers = "Hypersynaptic Fibers"
+    case nanoTransistors = "Nanotransistors"
+    case nonlinearMetamaterials = "Nonlinear Metamaterials"
+    case phenolicComposites = "Phenolic Composites"
+    case photonicMetamaterials = "Photonic Metamaterials"
+    case plasmonicMetamaterials = "Plasmonic Metamaterials"
+    case slyramicFibers = "Sylramic Fibers"
+    case terahertzMetamaterials = "Terahertz Metamaterials"
     case titaniumCarbide = "Titanium Carbide"
+    case tungstenCarbide = "Tungsten Carbide"
 }

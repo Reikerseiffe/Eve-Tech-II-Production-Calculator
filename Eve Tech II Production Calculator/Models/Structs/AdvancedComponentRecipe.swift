@@ -10,9 +10,8 @@ import Foundation
 
 struct AdvancedComponentRecipe:Decodable{
     let input: [AdvancedComponentRecipeInput]
-    let inputQuantity:Int
     let output:AdvancedComponent
-    let outputQuantity:Int
+    let outputQuantity:Int = ADVANCED_COMPONENT_BASE_OUTPUT_QUANTITY
 }
 
 struct AdvancedComponentRecipeInput:Decodable{

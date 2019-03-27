@@ -1,0 +1,614 @@
+[
+    {
+        "output":"Antimatter Reactor Unit",
+        "input":[
+            {
+                "material":"Tungsten Carbide",
+                "quantity":9
+            },
+            {
+                "material":"Fermionic Condensates",
+                "quantity":2
+            }
+        ]
+    },
+    {
+        "output":"EM Pulse Generator",
+        "input":[
+            {
+                "material":"Tungsten Carbide",
+                "quantity":22
+            },
+            {
+                "material":"Phenolic Composites",
+                "quantity":7
+            },
+            {
+                "material":"Nanotransistors",
+                "quantity":2
+            }
+        ]
+    },
+    {
+        "output":"Fusion Thruster",
+        "input":[
+            {
+                "material":"Tungsten Carbide",
+                "quantity":13
+            },
+            {
+                "material":"Phenolic Composites",
+                "quantity":3
+            },
+            {
+                "material":"Ferrogel",
+                "quantity":1
+            }
+        ]
+    },
+    {
+        "output":"Laser Focusing Crystals",
+        "input":[
+            {
+                "material":"Tungsten Carbide",
+                "quantity":31
+            },
+            {
+                "material":"Fullerides",
+                "quantity":11
+            },
+            {
+                "material":"Hypersynaptic Fibers",
+                "quantity":1
+            }
+        ]
+    },
+    {
+        "output":"Linear Shield Emitter",
+        "input":[
+            {
+                "material":"Tungsten Carbide",
+                "quantity":22
+            },
+            {
+                "material":"Sylramic Fibers",
+                "quantity":9
+            },
+            {
+                "material":"Ferrogel",
+                "quantity":1
+            }
+        ]
+    },
+    {
+        "output":"Nanoelectrical Microprocessor",
+        "input":[
+            {
+                "material":"Tungsten Carbide",
+                "quantity":17
+            },
+            {
+                "material":"Phenolic Composites",
+                "quantity":6
+            },
+            {
+                "material":"Nanotransistors",
+                "quantity":2
+            },
+            {
+                "material":"Terahertz Metamaterials",
+                "quantity":2
+            }
+        ]
+    },
+    {
+        "output":"Radar Sensor Cluster",
+        "input":[
+            {
+                "material":"Tungsten Carbide",
+                "quantity":22
+            },
+            {
+                "material":"Nanotransistors",
+                "quantity":1
+            },
+            {
+                "material":"Hypersynaptic Fibers",
+                "quantity":2
+            }
+        ]
+    },
+    {
+        "output":"Tesseract Capacitor Unit",
+        "input":[
+            {
+                "material":"Tungsten Carbide",
+                "quantity":27
+            },
+            {
+                "material":"Fullerides",
+                "quantity":11
+            },
+            {
+                "material":"Nanotransistors",
+                "quantity":1
+            },
+            {
+                "material":"Terahertz Metamaterials",
+                "quantity":2
+            }
+        ]
+    },
+    {
+        "output":"Tungsten Carbide Armor Plate",
+        "input":[
+            {
+                "material":"Tungsten Carbide",
+                "quantity":44
+            },
+            {
+                "material":"Sylramic Fibers",
+                "quantity":11
+            }
+        ]
+    },
+    {
+        "output":"Gravimetric Sensor Cluster",
+        "input":[
+            {
+                "material":"Titanium Carbide",
+                "quantity":22
+            },
+            {
+                "material":"Nanotransistors",
+                "quantity":1
+            },
+            {
+                "material":"Hypersynaptic Fibers",
+                "quantity":2
+            }
+        ]
+    },
+    {
+        "output":"Graviton Pulse Generator",
+        "input":[
+            {
+                "material":"Titanium Carbide",
+                "quantity":22
+            },
+            {
+                "material":"Phenolic Composites",
+                "quantity":7
+            },
+            {
+                "material":"Nanotransistors",
+                "quantity":2
+            }
+        ]
+    },
+    {
+        "output":"Graviton Reactor Unit",
+        "input":[
+            {
+                "material":"Titanium Carbide",
+                "quantity":9
+            },
+            {
+                "material":"Fermionic Condensates",
+                "quantity":2
+            }
+        ]
+    },
+    {
+        "output":"Magpulse Thruster",
+        "input":[
+            {
+                "material":"Titanium Carbide",
+                "quantity":13
+            },
+            {
+                "material":"Phenolic Composites",
+                "quantity":3
+            },
+            {
+                "material":"Ferrogel",
+                "quantity":1
+            }
+        ]
+    },
+    {
+        "output":"Quantum Microprocessor",
+        "input":[
+            {
+                "material":"Titanium Carbide",
+                "quantity":17
+            },
+            {
+                "material":"Phenolic Composites",
+                "quantity":6
+            },
+            {
+                "material":"Nanotransistors",
+                "quantity":2
+            },
+            {
+                "material":"Nonlinear Metamaterials",
+                "quantity":2
+            }
+        ]
+    },
+    {
+        "output":"Scalar Capacitor Unit",
+        "input":[
+            {
+                "material":"Titanium Carbide",
+                "quantity":27
+            },
+            {
+                "material":"Fullerides",
+                "quantity":11
+            },
+            {
+                "material":"Nanotransistors",
+                "quantity":1
+            },
+            {
+                "material":"Nonlinear Metamaterials",
+                "quantity":2
+            }
+        ]
+    },
+    {
+        "output":"Superconductor Rails",
+        "input":[
+            {
+                "material":"Titanium Carbide",
+                "quantity":31
+            },
+            {
+                "material":"Fullerides",
+                "quantity":11
+            },
+            {
+                "material":"Hypersynaptic Fibers",
+                "quantity":1
+            }
+        ]
+    },
+    {
+        "output":"Sustained Shield Emitter",
+        "input":[
+            {
+                "material":"Titanium Carbide",
+                "quantity":22
+            },
+            {
+                "material":"Sylramic Fibers",
+                "quantity":9
+            },
+            {
+                "material":"Ferrogel",
+                "quantity":1
+            }
+        ]
+    },
+    {
+        "output":"Titanium Diborite Armor Plate",
+        "input":[
+            {
+                "material":"Titanium Carbide",
+                "quantity":44
+            },
+            {
+                "material":"Sylramic Fibers",
+                "quantity":11
+            }
+        ]
+    },
+    {
+        "output":"Crystalline Carbonide Armor Plate",
+        "input":[
+            {
+                "material":"Crystalline Carbonide",
+                "quantity":44
+            },
+            {
+                "material":"Sylramic Fibers",
+                "quantity":11
+            }
+        ]
+    },
+    {
+        "output":"Fusion Reactor Unit",
+        "input":[
+            {
+                "material":"Crystalline Carbonide",
+                "quantity":9
+            },
+            {
+                "material":"Fermionic Condensates",
+                "quantity":2
+            }
+        ]
+    },
+    {
+        "output":"Ion Thruster",
+        "input":[
+            {
+                "material":"Crystalline Carbonide",
+                "quantity":13
+            },
+            {
+                "material":"Phenolic Composites",
+                "quantity":3
+            },
+            {
+                "material":"Ferrogel",
+                "quantity":1
+            }
+        ]
+    },
+    {
+        "output":"Magnetometric Sensor Cluster",
+        "input":[
+            {
+                "material":"Crystalline Carbonide",
+                "quantity":22
+            },
+            {
+                "material":"Nanotransistors",
+                "quantity":1
+            },
+            {
+                "material":"Hypersynaptic Fibers",
+                "quantity":2
+            }
+        ]
+    },
+    {
+        "output":"Oscillator Capacitor Unit",
+        "input":[
+            {
+                "material":"Crystalline Carbonide",
+                "quantity":27
+            },
+            {
+                "material":"Fullerides",
+                "quantity":11
+            },
+            {
+                "material":"Nanotransistors",
+                "quantity":1
+            },
+            {
+                "material":"Photonic Metamaterials",
+                "quantity":2
+            }
+        ]
+    },
+    {
+        "output":"Particle Accelerator Unit",
+        "input":[
+            {
+                "material":"Crystalline Carbonide",
+                "quantity":31
+            },
+            {
+                "material":"Fullerides",
+                "quantity":11
+            },
+            {
+                "material":"Hypersynaptic Fibers",
+                "quantity":1
+            }
+        ]
+    },
+    {
+        "output":"Photon Microprocessor",
+        "input":[
+            {
+                "material":"Crystalline Carbonide",
+                "quantity":17
+            },
+            {
+                "material":"Phenolic Composites",
+                "quantity":6
+            },
+            {
+                "material":"Nanotransistors",
+                "quantity":2
+            },
+            {
+                "material":"Photonic Metamaterials",
+                "quantity":2
+            }
+        ]
+    },
+    {
+        "output":"Plasma Pulse Generator",
+        "input":[
+            {
+                "material":"Crystalline Carbonide",
+                "quantity":22
+            },
+            {
+                "material":"Phenolic Composites",
+                "quantity":7
+            },
+            {
+                "material":"Nanotransistors",
+                "quantity":2
+            }
+        ]
+    },
+    {
+        "output":"Pulse Shield Emitter",
+        "input":[
+            {
+                "material":"Crystalline Carbonide",
+                "quantity":22
+            },
+            {
+                "material":"Sylramic Fibers",
+                "quantity":9
+            },
+            {
+                "material":"Ferrogel",
+                "quantity":1
+            }
+        ]
+    },
+    {
+        "output":"Deflection Shield Emitter",
+        "input":[
+            {
+                "material":"Fernite Carbide",
+                "quantity":22
+            },
+            {
+                "material":"Sylramic Fibers",
+                "quantity":9
+            },
+            {
+                "material":"Ferrogel",
+                "quantity":1
+            }
+        ]
+    },
+    {
+        "output":"Electrolytic Capacitor Unit",
+        "input":[
+            {
+                "material":"Fernite Carbide",
+                "quantity":27
+            },
+            {
+                "material":"Fullerides",
+                "quantity":11
+            },
+            {
+                "material":"Nanotransistors",
+                "quantity":1
+            },
+            {
+                "material":"Phenolic Composites",
+                "quantity":2
+            }
+        ]
+    },
+    {
+        "output":"Fernite Carbide Composite Armor Unit",
+        "input":[
+            {
+                "material":"Fernite Carbide",
+                "quantity":44
+            },
+            {
+                "material":"Sylramic Fibers",
+                "quantity":11
+            }
+        ]
+    },
+    {
+        "output":"Ladar Sensor Cluster",
+        "input":[
+            {
+                "material":"Fernite Carbide",
+                "quantity":22
+            },
+            {
+                "material":"Nanotransistors",
+                "quantity":1
+            },
+            {
+                "material":"Hypersynaptic Fibers",
+                "quantity":2
+            }
+        ]
+    },
+    {
+        "output":"Nanomechanical Microprocessor",
+        "input":[
+            {
+                "material":"Fernite Carbide",
+                "quantity":17
+            },
+            {
+                "material":"Phenolic Composites",
+                "quantity":6
+            },
+            {
+                "material":"Nanotransistors",
+                "quantity":2
+            },
+            {
+                "material":"Plasmonic Metamaterials",
+                "quantity":2
+            }
+        ]
+    },
+    {
+        "output":"Nuclear Pulse Generator",
+        "input":[
+            {
+                "material":"Fernite Carbide",
+                "quantity":22
+            },
+            {
+                "material":"Phenolic Composites",
+                "quantity":7
+            },
+            {
+                "material":"Nanotransistors",
+                "quantity":2
+            }
+        ]
+    },
+    {
+        "output":"Nuclear Reactor Unit",
+        "input":[
+            {
+                "material":"Fernite Carbide",
+                "quantity":9
+            },
+            {
+                "material":"Fermionic Condensates",
+                "quantity":2
+            }
+        ]
+    },
+    {
+        "output":"Plasma Thruster",
+        "input":[
+            {
+                "material":"Fernite Carbide",
+                "quantity":13
+            },
+            {
+                "material":"Phenolic Composites",
+                "quantity":3
+            },
+            {
+                "material":"Ferrogel",
+                "quantity":1
+            }
+        ]
+    },
+    {
+        "output":"Thermonuclear Trigger Unit",
+        "input":[
+            {
+                "material":"Fernite Carbide",
+                "quantity":31
+            },
+            {
+                "material":"Fullerides",
+                "quantity":11
+            },
+            {
+                "material":"Hypersynaptic Fibers",
+                "quantity":1
+            }
+        ]
+    }
+]
