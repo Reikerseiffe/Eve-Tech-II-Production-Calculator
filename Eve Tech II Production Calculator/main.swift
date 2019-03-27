@@ -11,6 +11,6 @@ import Foundation
 print("Hello, New Eden!")
 
 //let processedMoonMaterialRecipes = JSONImporter.importProcessedMoonMaterials()
-let advancedMoonMaterialRecipes = JSONImporter.importAdvancedMoonMaterials()
-
+//let advancedMoonMaterialRecipes = JSONImporter.importAdvancedMoonMaterials()
+let advancedComponentsRecipes = JSONImporter.importAdvancedComponents()
 
