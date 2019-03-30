@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC30561F224FE4340039BD31 /* ModelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC30561E224FE4340039BD31 /* ModelExtensions.swift */; };
+		CC305621224FFE920039BD31 /* RawMoonMaterialsRequired.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC305620224FFE920039BD31 /* RawMoonMaterialsRequired.swift */; };
+		CC305623225001470039BD31 /* RequestedMaterials.json in Resources */ = {isa = PBXBuildFile; fileRef = CC305622225001470039BD31 /* RequestedMaterials.json */; };
+		CC305624225001500039BD31 /* RequestedMaterials.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = CC305622225001470039BD31 /* RequestedMaterials.json */; };
 		CC86498C224871F500A521A9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC86498B224871F500A521A9 /* main.swift */; };
 		CC8649932248731E00A521A9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8649922248731E00A521A9 /* Constants.swift */; };
 		CC8649972248734B00A521A9 /* RawMoonMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8649962248734B00A521A9 /* RawMoonMaterial.swift */; };
@@ -24,6 +28,7 @@
 		CC89299C2249EF110062F0FB /* AdvancedComponentsRecipes.json in Resources */ = {isa = PBXBuildFile; fileRef = CC89299B2249EF110062F0FB /* AdvancedComponentsRecipes.json */; };
 		CC89299D2249EFBB0062F0FB /* AdvancedMoonMaterialReactions.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = CC8929992249EEEA0062F0FB /* AdvancedMoonMaterialReactions.json */; };
 		CC89299E2249EFBF0062F0FB /* AdvancedComponentsRecipes.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = CC89299B2249EF110062F0FB /* AdvancedComponentsRecipes.json */; };
+		CC8929A0224F2CC80062F0FB /* MaterialCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC89299F224F2CC80062F0FB /* MaterialCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +47,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
+				CC305624225001500039BD31 /* RequestedMaterials.json in CopyFiles */,
 				CC89299E2249EFBF0062F0FB /* AdvancedComponentsRecipes.json in CopyFiles */,
 				CC89299D2249EFBB0062F0FB /* AdvancedMoonMaterialReactions.json in CopyFiles */,
 				CC8649B22248958400A521A9 /* ProcessedMoonMaterialReactions.json in CopyFiles */,
@@ -51,6 +57,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CC30561E224FE4340039BD31 /* ModelExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelExtensions.swift; sourceTree = "<group>"; };
+		CC305620224FFE920039BD31 /* RawMoonMaterialsRequired.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawMoonMaterialsRequired.swift; sourceTree = "<group>"; };
+		CC305622225001470039BD31 /* RequestedMaterials.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RequestedMaterials.json; sourceTree = "<group>"; };
 		CC864988224871F500A521A9 /* Eve Tech II Production Calculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Eve Tech II Production Calculator"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC86498B224871F500A521A9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CC8649922248731E00A521A9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -66,6 +75,7 @@
 		CC8649B4224896B600A521A9 /* JSONImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONImporter.swift; sourceTree = "<group>"; };
 		CC8929992249EEEA0062F0FB /* AdvancedMoonMaterialReactions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AdvancedMoonMaterialReactions.json; sourceTree = "<group>"; };
 		CC89299B2249EF110062F0FB /* AdvancedComponentsRecipes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AdvancedComponentsRecipes.json; sourceTree = "<group>"; };
+		CC89299F224F2CC80062F0FB /* MaterialCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,7 @@
 				CC86498B224871F500A521A9 /* main.swift */,
 				CC8649922248731E00A521A9 /* Constants.swift */,
 				CC8649B4224896B600A521A9 /* JSONImporter.swift */,
+				CC89299F224F2CC80062F0FB /* MaterialCalculator.swift */,
 			);
 			path = "Eve Tech II Production Calculator";
 			sourceTree = "<group>";
@@ -112,6 +123,7 @@
 			children = (
 				CC8649A1224873B900A521A9 /* Structs */,
 				CC8649952248733A00A521A9 /* Enums */,
+				CC30561E224FE4340039BD31 /* ModelExtensions.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -134,6 +146,7 @@
 				CC8649A2224873CA00A521A9 /* ProcessedMoonMaterialReaction.swift */,
 				CC8649A4224873E200A521A9 /* AdvancedMoonMaterialReaction.swift */,
 				CC8649A6224873F900A521A9 /* AdvancedComponentRecipe.swift */,
+				CC305620224FFE920039BD31 /* RawMoonMaterialsRequired.swift */,
 			);
 			path = Structs;
 			sourceTree = "<group>";
@@ -144,6 +157,7 @@
 				CC8649AC2248947A00A521A9 /* ProcessedMoonMaterialReactions.json */,
 				CC8929992249EEEA0062F0FB /* AdvancedMoonMaterialReactions.json */,
 				CC89299B2249EF110062F0FB /* AdvancedComponentsRecipes.json */,
+				CC305622225001470039BD31 /* RequestedMaterials.json */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
@@ -218,6 +232,7 @@
 				CC89299A2249EEEA0062F0FB /* AdvancedMoonMaterialReactions.json in Resources */,
 				CC89299C2249EF110062F0FB /* AdvancedComponentsRecipes.json in Resources */,
 				CC8649AD2248947A00A521A9 /* ProcessedMoonMaterialReactions.json in Resources */,
+				CC305623225001470039BD31 /* RequestedMaterials.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,11 +246,14 @@
 				CC86499F224873A100A521A9 /* AdvancedComponent.swift in Sources */,
 				CC8649972248734B00A521A9 /* RawMoonMaterial.swift in Sources */,
 				CC86498C224871F500A521A9 /* main.swift in Sources */,
+				CC305621224FFE920039BD31 /* RawMoonMaterialsRequired.swift in Sources */,
 				CC8649A5224873E200A521A9 /* AdvancedMoonMaterialReaction.swift in Sources */,
 				CC8649B5224896B600A521A9 /* JSONImporter.swift in Sources */,
 				CC8649A3224873CA00A521A9 /* ProcessedMoonMaterialReaction.swift in Sources */,
 				CC86499B2248737A00A521A9 /* AdvancedMoonMaterial.swift in Sources */,
 				CC8649992248736300A521A9 /* ProcessedMoonMaterial.swift in Sources */,
+				CC30561F224FE4340039BD31 /* ModelExtensions.swift in Sources */,
+				CC8929A0224F2CC80062F0FB /* MaterialCalculator.swift in Sources */,
 				CC8649932248731E00A521A9 /* Constants.swift in Sources */,
 				CC86499D2248738900A521A9 /* FuelBlock.swift in Sources */,
 				CC8649A7224873F900A521A9 /* AdvancedComponentRecipe.swift in Sources */,

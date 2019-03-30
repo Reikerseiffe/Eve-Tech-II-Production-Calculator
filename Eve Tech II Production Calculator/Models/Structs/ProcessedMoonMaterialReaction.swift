@@ -8,11 +8,15 @@
 
 import Foundation
 
-struct ProcessedMoonMaterialReaction:Decodable{
+struct ProcessedMoonMaterialReaction:Decodable, RunCalculator{
+    
     let input: [RawMoonMaterial]
     let inputQuantity:Int = PROCESSED_MOON_MATERIAL_BASE_INPUT_QUANTITY
     let fuelBlocks:FuelBlock
     let fuelBlockQuantity:Int = REACTION_FUEL_BLOCK_INPUT_QUANTITY
     let output:ProcessedMoonMaterial
     let outputQuantity:Int = PROCESSED_MOON_MATERIAL_BASE_OUTPUT_QUANTITY
+    
+    //Calculations
+    var requestedAmount:Int? = 0
 }

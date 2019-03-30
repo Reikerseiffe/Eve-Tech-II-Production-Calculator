@@ -8,7 +8,7 @@
 
 import Foundation
 
-enum ProcessedMoonMaterial:String, Codable{
+enum ProcessedMoonMaterial:String, Codable, CaseIterable{
     case caesariumCadmide = "Caesarium Cadmide"
     case carbonPolymers = "Carbon Polymers"
     case ceramicPowder = "Ceramic Powder"

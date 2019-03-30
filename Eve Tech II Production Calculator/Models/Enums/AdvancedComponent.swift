@@ -8,7 +8,7 @@
 
 import Foundation
 
-enum AdvancedComponent: String, Decodable{
+enum AdvancedComponent: String, Decodable, CaseIterable{
     //Amarr
     case antimatterReactorUnit = "Antimatter Reactor Unit"
     case emPulseGenerator = "EM Pulse Generator"

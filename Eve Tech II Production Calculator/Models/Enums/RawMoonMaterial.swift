@@ -8,7 +8,7 @@
 
 import Foundation
 
-enum RawMoonMaterial:String, Codable{
+enum RawMoonMaterial:String, Codable, CaseIterable{
     //R4
     case silicates = "Silicates"
     case evaporiteDeposits = "Evaporite Deposits"

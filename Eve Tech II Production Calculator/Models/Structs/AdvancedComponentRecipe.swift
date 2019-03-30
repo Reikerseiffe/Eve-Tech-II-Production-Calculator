@@ -8,10 +8,14 @@
 
 import Foundation
 
-struct AdvancedComponentRecipe:Decodable{
+struct AdvancedComponentRecipe:Decodable, RunCalculator{
+
     let input: [AdvancedComponentRecipeInput]
     let output:AdvancedComponent
     let outputQuantity:Int = ADVANCED_COMPONENT_BASE_OUTPUT_QUANTITY
+    
+    //Calculations
+    var requestedAmount:Int? = 0
 }
 
 struct AdvancedComponentRecipeInput:Decodable{

@@ -10,15 +10,12 @@ import Foundation
 
 
 class JSONImporter{
-    
-    
-    
-    
-    static func importAllRecipes(){
-        self.importProcessedMoonMaterials()
-        self.importAdvancedMoonMaterials()
-        self.importAdvancedComponents()
-    }
+
+//    static func importAllRecipes(){
+//        self.importProcessedMoonMaterials()
+//        self.importAdvancedMoonMaterials()
+//        self.importAdvancedComponents()
+//    }
     
     static func genericJSONImporter<T>(fromPath path:String, withModel modelType: T.Type) -> T? where T : Decodable{
         do {
@@ -42,7 +39,7 @@ class JSONImporter{
         }
         
         if let processedMoonMaterialRecipes = genericJSONImporter(fromPath: path, withModel: [ProcessedMoonMaterialReaction].self){
-            print(processedMoonMaterialRecipes)
+//            print(processedMoonMaterialRecipes)
             return processedMoonMaterialRecipes
         }
         return []
@@ -56,7 +53,7 @@ class JSONImporter{
         }
         
         if let advancedMoonMaterialRecipes = genericJSONImporter(fromPath: path, withModel: [AdvancedMoonMaterialReaction].self){
-            print(advancedMoonMaterialRecipes)
+//            print(advancedMoonMaterialRecipes)
             return advancedMoonMaterialRecipes
         }
         return []
@@ -70,9 +67,25 @@ class JSONImporter{
         }
         
         if let advancedComponentRecipes = genericJSONImporter(fromPath: path, withModel: [AdvancedComponentRecipe].self){
-            print(advancedComponentRecipes)
+//            print(advancedComponentRecipes)
             return advancedComponentRecipes
         }
         return []
     }
+    
+    static func importrequestedComponents() -> [RequestedMaterial]{
+        //Get path for advanced components
+        guard let path = Bundle.main.path(forResource: "RequestedMaterials", ofType: "json") else {
+            print("Not able to find JSON File")
+            return []
+        }
+        
+        if let requestedMaterials = genericJSONImporter(fromPath: path, withModel: [RequestedMaterial].self){
+//            print(requestedMaterials)
+            return requestedMaterials
+        }
+        return []
+    }
+    
+    
 }

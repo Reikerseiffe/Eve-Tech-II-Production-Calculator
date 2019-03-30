@@ -8,7 +8,7 @@
 
 import Foundation
 
-enum AdvancedMoonMaterial: String, Decodable{
+enum AdvancedMoonMaterial: String, Decodable, CaseIterable{
     case crystallineCarbonide = "Crystalline Carbonide"
     case fermionicCondensates = "Fermionic Condensates"
     case ferniteCarbide = "Fernite Carbide"

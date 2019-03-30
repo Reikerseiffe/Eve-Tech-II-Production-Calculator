@@ -1,0 +1,19 @@
+[
+    {
+        "material":"Radar Sensor Cluster",
+        "quantity":175
+    },
+    {
+        "material":"Fusion Thruster",
+        "quantity":408
+    },
+    {
+        "material":"Antimatter Reactor Unit",
+        "quantity":466
+    },
+    {
+        "material":"Tungsten Carbide Armor Plate",
+        "quantity":699
+    }
+
+]
