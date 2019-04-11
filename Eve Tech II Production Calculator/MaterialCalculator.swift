@@ -24,9 +24,9 @@ class MaterialCalculator{
             decodeRequestedItem(item)
         }
         
+        calculateBaseMaterials(of: components)
+        
     }
-    
-    
     
     //This function decodes the requested Items from the front end and will add them to array to be calulated
     //This function does not calculated needed materials
@@ -75,10 +75,24 @@ class MaterialCalculator{
             print("Unknown material!!!")
         }
     }
+    
+    
+    //Takes array or a single material type and will add the base materials to the recipes array
+    static func calculateBaseMaterials<T>(of requestItems:T){
+        
+        //TODO: This function
+            
+            
+    }
+        
+        
+        
+        
 }
 
 
-struct RequestedMaterial: Decodable{
-    var material:String
-    var quantity:Int
-}
+
+//protocol Reaction{
+//    var input:[] {get}
+//    var inputQuantity:Int {get}
+//}

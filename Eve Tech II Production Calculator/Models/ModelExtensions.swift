@@ -20,6 +20,4 @@ extension RunCalculator{
     func calculateRunsNeeded() -> Int{
         return requestedAmount ?? 0/outputQuantity
     }
-    
-    
 }

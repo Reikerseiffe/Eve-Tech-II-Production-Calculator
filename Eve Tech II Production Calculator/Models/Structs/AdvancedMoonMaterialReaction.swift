@@ -9,7 +9,6 @@
 import Foundation
 
 struct AdvancedMoonMaterialReaction:Decodable, RunCalculator{
-    
     let input: [ProcessedMoonMaterial]
     let inputQuantity:Int = PROCESSED_MOON_MATERIAL_BASE_INPUT_QUANTITY
     let fuelBlocks:FuelBlock
