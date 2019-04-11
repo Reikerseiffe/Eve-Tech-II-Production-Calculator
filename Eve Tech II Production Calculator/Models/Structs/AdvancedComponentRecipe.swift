@@ -15,7 +15,7 @@ struct AdvancedComponentRecipe:Decodable, RunCalculator{
     let outputQuantity:Int = ADVANCED_COMPONENT_BASE_OUTPUT_QUANTITY
     
     //Calculations
-    var requestedAmount:Int? = 0
+    var requestedAmount:Int = 0
 }
 
 struct AdvancedComponentRecipeInput:Decodable{

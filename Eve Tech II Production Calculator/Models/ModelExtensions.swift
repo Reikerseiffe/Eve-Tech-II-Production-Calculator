@@ -11,13 +11,13 @@ import Foundation
 
 protocol RunCalculator{
     var outputQuantity:Int {get}
-    var requestedAmount:Int? {get set}
+    var requestedAmount:Int {get set}
     
     func calculateRunsNeeded() -> Int
 }
 
 extension RunCalculator{
     func calculateRunsNeeded() -> Int{
-        return requestedAmount ?? 0/outputQuantity
+        return requestedAmount/outputQuantity
     }
 }

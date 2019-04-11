@@ -17,5 +17,5 @@ struct AdvancedMoonMaterialReaction:Decodable, RunCalculator{
     let outputQuantity:Int
     
     //Calculations
-    var requestedAmount:Int? = 0
+    var requestedAmount:Int = 0
 }

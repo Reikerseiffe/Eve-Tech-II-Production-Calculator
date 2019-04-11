@@ -18,5 +18,5 @@ struct ProcessedMoonMaterialReaction:Decodable, RunCalculator{
     let outputQuantity:Int = PROCESSED_MOON_MATERIAL_BASE_OUTPUT_QUANTITY
     
     //Calculations
-    var requestedAmount:Int? = 0
+    var requestedAmount:Int = 0
 }
